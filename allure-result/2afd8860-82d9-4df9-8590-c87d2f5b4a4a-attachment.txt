@@ -1,2 +1,0 @@
-headlessmode
-Login TestCase is Passed
