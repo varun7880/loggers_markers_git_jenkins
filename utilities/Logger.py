@@ -8,7 +8,7 @@ class LogGenerator:
         name = inspect.stack()[1][3]
         logger = logging.getLogger(name)
         logfile = logging.FileHandler(
-            "D:\\SHUBH\\IT Software\\Python\\Pytest_Loger_Marker\\Logs\\CredKart.log")
+            "E:\\shubham\\Pytest_Loger_Marker\\Logs\\CredKart.log")
         log_format = logging.Formatter(
             "%(asctime)s : %(levelname)s : %(name)s : %(funcName)s : %(lineno)d : %(message)s ")
         logfile.setFormatter(log_format)

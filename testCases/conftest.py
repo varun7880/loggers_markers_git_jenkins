@@ -1,6 +1,8 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+
+
 # from selenium.webdriver.chrome.options import Options
 
 
@@ -15,8 +17,7 @@ from selenium.webdriver.firefox.options import Options
 # pytest command. It takes a single argument, parser, which is an instance of the argparse.ArgumentParser class.
 
 
-
-# add arg --broswer this for your command linner
+# add arg --browser this for your command liner
 def pytest_addoption(parser):
     parser.addoption("--browser")
 
@@ -28,7 +29,7 @@ def browser(request):
 
 
 # Define the browser fixture function with a single argument, request.
-# Within the browser function, use the request.config.getoption() method to get the value
+# Within the browser function, use the request.config.get option() method to get the value
 # of the --browser option passed to pytest on the command line.
 
 
@@ -55,6 +56,7 @@ def setup(browser):
     driver.maximize_window()
     driver.get("https://automation.credence.in")
     return driver
+
 
 # The pytest_metadata function is a hook function in pytest that allows you to
 # add custom metadata to the test report. This metadata can be used to provide

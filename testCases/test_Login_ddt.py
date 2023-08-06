@@ -1,5 +1,6 @@
 import pytest
 
+
 from pageObjects.LoginPage import Login
 from utilities import XLutils
 from utilities.Logger import LogGenerator
@@ -7,7 +8,7 @@ from utilities.Logger import LogGenerator
 
 class Test_CredKart_Login_DTT:
     log = LogGenerator.loggen()
-    XlPath = "D:\\SHUBH\\IT Software\\Python\\Pytest_Loger_Marker\\testCases\\TestData\\LoginTest - Copy.xlsx"
+    XlPath = "E:\\shubham\\Pytest_Loger_Marker\\testCases\\TestData\\LoginTest - Copy.xlsx"
 
     @pytest.mark.regression
     @pytest.mark.sanity

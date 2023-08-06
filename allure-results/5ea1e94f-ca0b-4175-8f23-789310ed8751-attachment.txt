@@ -1,0 +1,28 @@
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:16 Started testcase test_CredKart_Login_ddt_006
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:17 Opening browser
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:27 Click on login link
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:29 Entering Email:-Credencetest@test.com
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:31 Entering Password:-Credence@123
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:33 Click on Login Button
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:37 This case is Pass
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:40 Taking screenshot
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:42 Click on Menu button
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:44 Click on Logout button
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:27 Click on login link
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:29 Entering Email:-Credencetest@test.com1
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:31 Entering Password:-Credence@123
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:33 Click on Login Button
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:64 This case is Pass
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:27 Click on login link
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:29 Entering Email:-Credencetest@test.com
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:31 Entering Password:-Credence@1231
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:33 Click on Login Button
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:64 This case is Pass
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:27 Click on login link
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:29 Entering Email:-Credencetest@test.com1
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:31 Entering Password:-Credence@1231
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:33 Click on Login Button
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:64 This case is Pass
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:68 Login_status_List-->['Pass', 'Pass', 'Pass', 'Pass']
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:71 Data driven testcase test_CredKart_Login_ddt_006 is passed
+[32mINFO    [0m Test_CredKart_Login_DTT:test_Login_ddt.py:76 Data driven testcase test_CredKart_Login_ddt_006 is completed
